@@ -1,7 +1,4 @@
 """
-Jose C. Ramirez
-CMPS 3233
-
 The is a DFSM with language set of a, b, c
 where w contains the substring 'bbc' but not as
 a prefix. Minimum examples are 'abbc', 'bbbc', 'cbbc'
@@ -18,15 +15,15 @@ acc = 0		#to count the accepted strings
 
 #defining the state machine using dictionaires
 FSM = 	{
-			"S"  : { 'a' : "Q1", 'b' : "Q4", 'c' : "Q1", '\n' : "S"  }, 
-			"Q1" : { 'a' : "Q1", 'b' : "Q2", 'c' : "Q1", '\n' : "Q1" },
-			"Q2" : { 'a' : "Q1", 'b' : "Q3", 'c' : "Q1", '\n' : "Q2" },
-			"Q3" : { 'a' : "Q1", 'b' : "Q3", 'c' : "F",  '\n' : "Q3" },
-			"Q4" : { 'a' : "Q1", 'b' : "Q5", 'c' : "Q1", '\n' : "Q4" },
-			"Q5" : { 'a' : "Q1", 'b' : "Q3", 'c' : "T",  '\n' : "Q5" },
-            "T"  : { 'a' : "T",  'b' : "T",  'c' : "T",  '\n' : "T"  },
-			"F"  : { 'a' : "F",  'b' : "F",  'c' : "F",  '\n' : "F"  }
-		}
+		"S"  : { 'a' : "Q1", 'b' : "Q4", 'c' : "Q1", '\n' : "S"  }, 
+		"Q1" : { 'a' : "Q1", 'b' : "Q2", 'c' : "Q1", '\n' : "Q1" },
+		"Q2" : { 'a' : "Q1", 'b' : "Q3", 'c' : "Q1", '\n' : "Q2" },
+		"Q3" : { 'a' : "Q1", 'b' : "Q3", 'c' : "F",  '\n' : "Q3" },
+		"Q4" : { 'a' : "Q1", 'b' : "Q5", 'c' : "Q1", '\n' : "Q4" },
+		"Q5" : { 'a' : "Q1", 'b' : "Q3", 'c' : "T",  '\n' : "Q5" },
+            	"T"  : { 'a' : "T",  'b' : "T",  'c' : "T",  '\n' : "T"  },
+		"F"  : { 'a' : "F",  'b' : "F",  'c' : "F",  '\n' : "F"  }
+	}
 
 print "Jose C. Ramirez\n"
 
