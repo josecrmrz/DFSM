@@ -1,0 +1,92 @@
+Jose C. Ramirez
+
+EMPTY STRING                Rejected
+
+ababbcbcba                  Accepted
+bbbabbc                     Accepted
+bbbbbc                      Accepted
+aaaabcbbaabbc               Accepted
+aacacacabbcaaaabc           Accepted
+accbacbbc                   Accepted
+cbcbcbbabbccabba            Accepted
+bbbcabbc                    Accepted
+bbaaabbc                    Accepted
+abbcbabbab                  Accepted
+abbc                        Accepted
+bbbc                        Accepted
+cbbc                        Accepted
+bcbccbcbbc                  Accepted
+abbcbbcbbcbbcbbc            Accepted
+a                           Rejected
+abccbccacbaca               Rejected
+cbabed                      Rejected
+abbabbababccc               Rejected
+abbbbbaacccbb               Rejected
+bbabbbaaccbc                Rejected
+bcb                         Rejected
+abbba                       Rejected
+bbcbba                      Rejected
+bbcbbc                      Rejected
+b                           Rejected
+c                           Rejected
+aaa                         Rejected
+bbb                         Rejected
+bababbacbcbba               Rejected
+----------------------------------------
+Number of Accepted strings:  15
+Number of Rejected strings:  15
+----------------------------------------
+
+Halverson's Data
+
+bbaacbb                     Rejected
+aac                         Rejected
+aaccacbcd                   Rejected
+bcaaabacaa                  Rejected
+abcabcad                    Rejected
+abbbccaa                    Accepted
+ccababaccaa                 Rejected
+abaabaccc                   Rejected
+abbccaaabcba                Accepted
+acb                         Rejected
+cbccac                      Rejected
+bb                          Rejected
+abacabab                    Rejected
+aabbabccbaba                Rejected
+bbbc                        Accepted
+abcccc                      Rejected
+aabcaabc                    Rejected
+ccbbb                       Rejected
+ccaba                       Rejected
+bbbb                        Rejected
+ccccccaaa                   Rejected
+bacaaacb                    Rejected
+aaaa                        Rejected
+a                           Rejected
+bcbb                        Rejected
+abc                         Rejected
+cbcbabb                     Rejected
+abcc                        Rejected
+abbb                        Rejected
+ccccbab                     Rejected
+bcbab                       Rejected
+acacbaa                     Rejected
+acacbb                      Rejected
+caa                         Rejected
+aabb                        Rejected
+abbccbaa                    Accepted
+ccccc                       Rejected
+abbbb                       Rejected
+abaab                       Rejected
+bbb                         Rejected
+cccaaa                      Rejected
+accda                       Rejected
+aacjaaj                     Rejected
+bbabcabb                    Rejected
+cabbaac                     Rejected
+cccacbb                     Rejected
+cacbcacb                    Rejected
+----------------------------------------
+Number of Accepted strings:  4
+Number of Rejected strings:  43
+----------------------------------------
